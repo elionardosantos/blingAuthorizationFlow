@@ -9,6 +9,9 @@ Este projeto realiza a integração com a API v3 do Bling para autenticação e 
 Na página de cadastro de aplicativos do Bling, é necessário configurar o link de redirecionamento para o arquivo `authorization.php` do projeto.
 
 Exemplo de URL para redirecionamento: http://localhost/blingAuthorizationFlow/authorization.php
+Caso não queira configurar o redirecionamento para o endereço do seu projeto diretamente pelo Bling, você também pode preencher o `code` na linha 11 e o `state` na linha 12 manualmente, e em seguida executar a página.
+
+Obs: Este código foi testado somente no navegador. Erros podem ocorrer em outros ambientes.
 
 No arquivo `authorization.php` substitua `CLIENT_ID` pelo seu Client Id e `CLIENT_SECRET` pelo seu Client Secret.
 
