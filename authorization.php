@@ -1,11 +1,11 @@
 <?php
 
-// Com o authorization_code, o client app deve realizar uma requisição POST para o endpoint /token,
-// Nisso o code será validado e os tokens de acesso serão retornados.
-// Lembrando que o prazo para realizar esta requisição é de 1 minuto, este é o tempo de expiração do code.
+// Após obter o authorization_code, o client app deve realizar uma requisição POST para o endpoint /token,
+// Se o authorization_code estiver correto, os tokens de acesso serão retornados pelo servidor.
+// Lembrando que após obter o authorization_code, o prazo para requisitar os tokens é de 1 minuto. Após este período o authorization_token se tornará inválido.
 
-$client_id = 'SEU_CLIENT_ID_AQUI'; 
-$client_secret = 'SEU_CLIENT_SECRET_AQUI';
+$client_id = 'CLIENT_ID'; 
+$client_secret = 'CLIENT_SECRET';
 $authorization_url = 'https://api.bling.com.br/Api/v3/oauth/authorize';
 $token_url = 'https://api.bling.com.br/v3/oauth/token';
 $code = $_GET['code'];
