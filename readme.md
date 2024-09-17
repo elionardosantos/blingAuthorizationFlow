@@ -10,12 +10,12 @@ Na página de cadastro de aplicativos do Bling, é necessário configurar o link
 
 Exemplo de URL para redirecionamento: http://localhost/blingAuthorizationFlow/authorization.php
 
-No arquivo `authorization.php` substitua 'SEU_CLIENT_ID_AQUI' pelo seu Client Id e 'SEU_CLIENT_SECRET_AQUI' pelo seu Client Secret.
+No arquivo `authorization.php` substitua `CLIENT_ID` pelo seu Client Id e `CLIENT_SECRET` pelo seu Client Secret.
 
 
 ### 2. Autenticação
 
-Quando o usuário autorizar o acesso, a página `authorization.php` será responsável por processar a resposta da API e retornar os tokens necessários para autenticação:
+Quando o usuário autorizar o acesso, a página `authorization.php` será responsável por processar a resposta da API e retornar os tokens necessários para consumir a API:
 
 - **access_token**
 - **refresh_token**
