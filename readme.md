@@ -44,8 +44,3 @@ git clone https://github.com/seu-usuario/projetoBling.git
 
 Em caso de dúvidas, entre em contato pelo e-mail: `elionars@gmail.com`.
 
-Aceito doações. 😄
-
-Chave pix: 8def8cca-20e9-43cb-9161-0576852214b3
-
-Obrigado por contribuir.
